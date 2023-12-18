@@ -90,11 +90,11 @@ def load_video_object_from_json():
     print(f"Shot Start Frame: {video_obj.shot_start_frame}, Shot End Frame: {video_obj.shot_end_frame}")
 
     # Print example landmarks and joint angles
-    print("\nExample Landmarks (First Frame):")
-    print(video_obj.landmarks[:5])  # Print first 5 landmarks of the first frame
+    #print("\nExample Landmarks (First Frame):")
+    #print(video_obj.landmarks[:5])  # Print first 5 landmarks of the first frame
 
-    print("\nExample Joint Angles (First Frame):")
-    print(video_obj.original_joint_angles[0])  # Print joint angles of the first frame
+    #print("\nExample Joint Angles (First Frame):")
+    #print(video_obj.original_joint_angles[0])  # Print joint angles of the first frame
 
     return video_obj
 
